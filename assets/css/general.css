@@ -525,8 +525,8 @@ label.custom-select {
     width: 90%;
   }
 }
-
-@media (max-width: 1000px) {
+/* 
+@media (max-width: 700px) {
   .navbar ul {
     flex-wrap: wrap;
     padding: 5px 20px 5px 20px;
@@ -549,4 +549,4 @@ label.custom-select {
     display: flex;
     justify-content: center;
   }
-}
+} */
