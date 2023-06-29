@@ -1,7 +1,8 @@
 {
+  "id": "/",
   "theme_color": "#33485d",
   "background_color": "#33485d",
-  "display": "browser",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "name": "Abdelrahman Bayoumi",
