@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="Abdelrahman Bayoumi Portfolio, Software engineer Passionate about programming and care deeply about code quality 🚀" />
+    <meta name="author" content="Abdelrahman Bayoumi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AbdelrahmanBayoumi" />
+    <meta property="og:locale" content="en_EN" />
+    <meta property="og:locale:alternate" content="en_EN" />
+    <meta property="og:url" content="https://azkar-site.web.app" />
+    <meta property="og:title" content="Azkar - أذكار" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://azkar-site.web.app/assets/images/logo.png" />
+    <meta property="og:image:alt" content="Logo" />
+    <link rel="apple-touch-icon" href="https://azkar-site.web.app/assets/images/apple-touch-icon.png" />
+    <!-- favicon -->
+    <link rel="icon" type="image/svg" href="assets/images/portfolio.svg" />
+    <!-- TODO: Change icon link -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://azkar-site.web.app/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://azkar-site.web.app/assets/images/favicon-16x16.png" />
+    <!-- <link rel="manifest" href="/site.webmanifest" /> -->
+    <meta property="og:image:width" content="256" />
+    <meta property="og:image:height" content="256" />
+    <title>Bayoumi</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- main CSS -->
+    <link href="assets/css/general.css" rel="stylesheet" />
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <link href="assets/css/particles.css" rel="stylesheet" />
+</head>
+
+<body id="top">
+    <div id="particles-js">
+    </div>
+    <div class="particles-front">
+        <nav class="navbar" dir="ltr">
+            <ul>
+                <li class="navbar-logo" onclick="scrollToID('top')">
+                    <h1>
+                        <pre>{A}</pre>
+                    </h1>
+                </li>
+                <li class="navbar-toggle">
+                    <svg viewBox="0 0 100 80" style="fill: white" width="40" height="30">
+                        <rect width="100" height="15"></rect>
+                        <rect y="30" width="100" height="15"></rect>
+                        <rect y="60" width="100" height="15"></rect>
+                    </svg>
+                </li>
+                <li class="navbar-links" onclick="scrollToID('projects')">Projects</li>
+                <li class="navbar-links" onclick="scrollToID('edu')">Education</li>
+                <li class="navbar-links" onclick="scrollToID('experience')">Experience</li>
+                <li class="navbar-links" onclick="scrollToID('contact')">Contact Me</li>
+                <li class="navbar-links navbar-img lang">
+                    <img src="assets/images/world.svg" alt="globe" loading="lazy">
+                    <!-- <strong>عربية</strong> -->
+                </li>
+            </ul>
+        </nav>
+
+
+
+
+        <main>
+            <section id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="hbox g-20 project-choose">
+                    <h2>Project Type:</h2>
+                    <button class="btn btn-primary" onclick="chooseType('desktop app')">Desktop App</button>
+                    <button class="btn btn-primary" onclick="chooseType('web')">Web (Back-End)</button>
+                    <button class="btn btn-primary" onclick="chooseType('cli')">Command Line Interface (CLI)</button>
+                    <button class="btn btn-primary" onclick="chooseType('other')">Other</button>
+                </div>
+
+
+                <div id="projectsContainer" class="projects-container">
+                    <article class="project-box">
+                        <div class="project-container">
+                            <!-- <div class="project-image-container">
+                                <img src="assets/images/project.png" alt="">
+                            </div> -->
+                            <div class="project-text">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum saepe commodi facere
+                                    doloribus
+                                    minima delectus ratione, placeat, nobis dolorum rem architecto ab perspiciatis ea
+                                    enim
+                                    ipsa
+                                    assumenda dolor vitae qui.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-box-footer">
+                            <div>
+                                <span> Link: </span>
+                                <a class="project-link" href="https://github.com/saadpasta" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-github"></i><span></span>
+                                </a>
+                            </div>
+                            <div class="project-tech">
+                                <img src="assets/images/java.svg" alt="java">
+                                <img src="assets/images/css.svg" alt="css3">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <div class="project-container">
+                            <div class="project-image-container">
+                                <img src="assets/images/project.png" alt="">
+                            </div>
+                            <div class="project-text">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum saepe commodi facere
+                                    doloribus
+                                    minima delectus ratione, placeat, nobis dolorum rem architecto ab perspiciatis ea
+                                    enim
+                                    ipsa
+                                    assumenda dolor vitae qui.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-box-footer">
+                            <div>
+                                <span> Link: </span>
+                                <a class="project-link" href="https://github.com/saadpasta" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-github"></i><span></span>
+                                </a>
+                            </div>
+                            <div class="project-tech">
+                                <img src="assets/images/java.svg" alt="java">
+                                <img src="assets/images/css.svg" alt="css3">
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-box">
+                        <div class="project-container">
+                            <div class="project-image-container">
+                                <img src="assets/images/project.png" alt="">
+                            </div>
+                            <div class="project-text">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum saepe commodi facere
+                                    doloribus
+                                    minima delectus ratione, placeat, nobis dolorum rem architecto ab perspiciatis ea
+                                    enim
+                                    ipsa
+                                    assumenda dolor vitae qui.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-box-footer">
+                            <div>
+                                <span> Link: </span>
+                                <a class="project-link" href="https://github.com/saadpasta" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-github"></i><span></span>
+                                </a>
+                            </div>
+                            <div class="project-tech">
+                                <img src="assets/images/java.svg" alt="java">
+                                <img src="assets/images/css.svg" alt="css3">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/general.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/projects.js"></script>
+</body>
+
+</html>
