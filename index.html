@@ -1,244 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdelrahman Bayoumi - Software Engineer</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <!-- SEO Meta Tags -->
     <meta
       name="description"
-      content="Abdelrahman Bayoumi Portfolio, Software engineer Passionate about programming and care deeply about code quality 🚀"
+      content="Abdelrahman Bayoumi - Full Stack Developer specializing in modern web technologies. Building scalable applications with React, Node.js, and more."
     />
     <meta name="author" content="Abdelrahman Bayoumi" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Abdelrahman Bayoumi's Portfolio" />
-    <meta property="og:locale" content="en_EN" />
-    <meta property="og:locale:alternate" content="en_EN" />
-    <meta property="og:url" content="https://abdelrahmanbayoumi.github.io" />
-    <meta property="og:title" content="Abdelrahman Bayoumi's Portfolio" />
-    <meta property="og:description" content="" />
     <meta
-      property="og:image"
-      content="https://abdelrahmanbayoumi.github.io/assets/images/logo.png"
+      name="keywords"
+      content="full stack developer, web development, JavaScript, React, Node.js, portfolio, software engineer"
     />
-    <meta property="og:image:alt" content="Logo" />
-    <link
-      rel="apple-touch-icon"
-      href="https://abdelrahmanbayoumi.github.io/assets/images/apple-touch-icon.png"
-    />
-    <!-- favicon -->
-    <link rel="icon" type="image/svg" href="assets/images/logo.ico" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="256x256"
-      href="https://abdelrahmanbayoumi.github.io/assets/images/icon-256x256.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="https://abdelrahmanbayoumi.github.io/assets/images/icon-192x192.png"
-    />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <meta property="og:image:width" content="256" />
-    <meta property="og:image:height" content="256" />
-    <title>Bayoumi</title>
-    <script>
-      function loadCSS(url) {
-        var link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.href = url;
-        document.head.appendChild(link);
-      }
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="rating" content="general" />
+    <link rel="canonical" href="https://abdelrahmanbayoumi.github.io/" />
 
-      // Call the loadCSS function to asynchronously load the font-awesome stylesheet
-      window.addEventListener("load", function () {
-        loadCSS(
-          "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        );
-      });
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abdelrahmanbayoumi.github.io/" />
+    <meta property="og:title" content="Abdelrahman Bayoumi - Software Engineer" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer specializing in modern web technologies. Building scalable applications with React, Node.js, and more."
+    />
+    <meta property="og:image" content="https://abdelrahmanbayoumi.github.io/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Abdelrahman Bayoumi Portfolio" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://abdelrahmanbayoumi.github.io/" />
+    <meta name="twitter:title" content="Abdelrahman Bayoumi - Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Full Stack Developer specializing in modern web technologies. Building scalable applications with React, Node.js, and more."
+    />
+    <meta name="twitter:image" content="https://abdelrahmanbayoumi.github.io/og-image.jpg" />
+
+    <!-- Additional SEO -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="application-name" content="Abdelrahman Bayoumi Portfolio" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abdelrahman Bayoumi",
+        "jobTitle": "Full Stack Developer",
+        "description": "Full Stack Developer specializing in modern web technologies",
+        "url": "https://abdelrahmanbayoumi.github.io/",
+        "image": "https://abdelrahmanbayoumi.github.io/og-image.jpg",
+        "sameAs": [
+          "https://github.com/AbdelrahmanBayoumi",
+          "https://www.linkedin.com/in/abdelrahman-bayoumi",
+          "https://t.me/AbdelrahmanBayoumi"
+        ],
+        "knowsAbout": ["Angular", "NestJS", "Node.js", "SQL", "MongoDB"]
+      }
     </script>
-    <!-- main CSS -->
-    <link href="assets/css/general.css" rel="stylesheet" />
-    <link href="assets/css/index.css" rel="stylesheet" />
-    <link href="assets/css/particles.css" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-7UxEJGLl.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-8o_CeBk0.css">
   </head>
 
-  <body id="top">
-    <div id="particles-js"></div>
-    <div class="particles-front">
-      <nav class="navbar" dir="ltr">
-        <ul>
-          <li class="navbar-logo" onclick="scrollToID('top')">
-            <h1>{A}</h1>
-          </li>
-          <li class="navbar-toggle">
-            <svg
-              viewBox="0 0 100 80"
-              style="fill: white"
-              width="40"
-              height="30"
-            >
-              <rect width="100" height="15"></rect>
-              <rect y="30" width="100" height="15"></rect>
-              <rect y="60" width="100" height="15"></rect>
-            </svg>
-          </li>
-          <!-- <li
-            class="navbar-links"
-            onclick='window.open("https://github.com/AbdelrahmanBayoumi", "_blank")'
-          >
-            📦 Projects
-          </li> -->
-          <!-- <li class="navbar-links" onclick="scrollToID('edu')">Education</li> -->
-          <!-- <li class="navbar-links" onclick="scrollToID('experience')">
-            Experience
-          </li> -->
-          <!-- <li class="navbar-links" onclick="scrollToID('contact')">
-            Contact Me
-          </li> -->
-          <li
-            class="navbar-links resume"
-            onclick='window.open("https://drive.google.com/file/d/1jgqGlSWQllT3cbk592arFw9UN7Pvykt0/view?usp=embed_facebook", "_blank")'
-          >
-            📄 Resume
-          </li>
-          <!-- <li class="navbar-links navbar-img lang">
-            <img src="assets/images/world.svg" alt="globe" loading="lazy" />
-             <strong>عربية</strong>
-           </li>  -->
-        </ul>
-      </nav>
-
-      <header>
-        <div class="main-container">
-          <div class="header_img">
-            <img class="header_img" src="assets/images/me2.webp" alt="pesron" />
-          </div>
-          <div class="greeting">
-            <!-- SubTitle -->
-            <h2>
-              Hi, I'm Abdulrahman Bayoumi
-              <span class="wave-emoji">👋</span>
-            </h2>
-
-            <!-- Summary -->
-            <p>
-              Full-Stack Developer (Node.js & Angular) passionate about building scalable, high-performance applications. Experienced in backend and frontend development, cloud-based architectures, and automation, with a strong drive for continuous learning and problem-solving. 🚀
-            </p>
-
-            <!-- Social Media Links -->
-            <div class="social-media-div">
-              <a
-                href="https://github.com/AbdelrahmanBayoumi"
-                class="icon-button github"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-github"></i
-              ></a>
-
-              <a
-                href="https://www.linkedin.com/in/abdelrahman-bayoumi/"
-                class="icon-button linkedin"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-
-              <a
-                href="mailto:abdelrahmanbayoumi1@gmail.com"
-                class="icon-button google"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fas fa-envelope"></i
-              ></a>
-
-              <a
-                href="https://t.me/AbdelrahmanBayoumi"
-                class="icon-button telegram"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-telegram"></i
-              ></a>
-
-              <a
-                href="https://www.youtube.com/@bayoumi-tech"
-                class="icon-button youtube"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fab fa-youtube"></i
-              ></a>
-
-              <a
-                href="https://dev.to/abdelrahmanbayoumi"
-                class="icon-button dev-to"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><i class="fa-brands fa-dev" style="color: #000"></i
-              ></a>
-            </div>
-
-            <!-- Call to Action -->
-            <!-- <div class="button-greeting-div">
-              <a class="main-button" href="/resume.pdf" target="_blank"
-                >📄 Resume</a
-              >
-              <a class="main-button" href="/projects.html" target="_blank"
-                >📦 Projects</a
-              >
-            </div> -->
-          </div>
-        </div>
-      </header>
-
-      <!-- <main>
-            <section id="projects">
-                <h2 class="section-title" style="text-align: center;">Projects 💼</h2>
-
-                <div class="projects-container">
-
-                    <article class="project-box">
-                        <div class="project-container">
-                            <div class="project-image-container">
-                                <img src="assets/images/cmd.png" alt="">
-                            </div>
-                            <div class="project-text">
-                                <h3>Command-line interface (CLI)</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum saepe commodi facere</p>
-                            </div>
-                        </div>
-
-                        <div class="project-box-footer" style="justify-content: center;">
-                            <a class="main-button" href="/projects.html" target="_blank">View All</a>
-                        </div>
-                    </article>
-
-                    
-                    <article class="project-box">
-                        <div class="project-container">
-                            <div class="project-image-container">
-                                <img src="assets/images/cmd.png" alt="">
-                            </div>
-                            <div class="project-text">
-                                <h3>Command-line interface (CLI)</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum saepe commodi facere</p>
-                            </div>
-                        </div>
-
-                        <div class="project-box-footer" style="justify-content: center;">
-                            <a class="main-button" href="/projects.html" target="_blank">View All</a>
-                        </div>
-                    </article>
-
-                </div>
-            </section>
-
-        </main> -->
-    </div>
-
-    <!-- JavaScript -->
-    <script src="assets/js/particles.min.js"></script>
-    <script src="assets/js/general.js"></script>
-    <script src="assets/js/index.js"></script>
+  <body>
+    <div id="root"></div>
   </body>
 </html>
